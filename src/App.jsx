@@ -1,0 +1,63 @@
+import React from 'react';
+
+export default function App() {
+  const linkDownloadChronos = "https://chronos-protocol-guug.vercel.app";
+  const linkWhatsApp = "https://wa.me/5583998765554?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20Chronos%20Protocol%20e%20a%20versão%20sem%20anúncios.";
+
+  return (
+    <div style={{ minHeight: '100vh', backgroundColor: '#020617', color: '#f8fafc', fontFamily: 'sans-serif', display: 'flex', flexDirection: 'column', padding: '16px', alignItems: 'center' }}>
+      
+      {/* Header */}
+      <header style={{ width: '100%', maxWidth: '400px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: '16px', borderBottom: '1px solid #1e293b', marginBottom: '24px' }}>
+        <span style={{ fontWeight: 'bold', fontSize: '18px', color: '#38bdf8' }}>Silva Apps & Games</span>
+        <span style={{ fontSize: '11px', backgroundColor: '#1e1b4b', color: '#818cf8', padding: '4px 10px', borderRadius: '999px', border: '1px solid #312e81' }}>Catálogo Oficial</span>
+      </header>
+
+      {/* Main Content */}
+      <main style={{ width: '100%', maxWidth: '400px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+        
+        <div style={{ backgroundColor: '#082f49', color: '#38bdf8', fontSize: '12px', padding: '4px 12px', borderRadius: '999px', marginBottom: '20px', border: '1px solid #0369a1' }}>
+          ✨ Lançamento em Destaque
+        </div>
+
+        <div style={{ width: '96px', height: '96px', background: 'linear-gradient(135deg, #4f46e5, #06b6d4)', borderRadius: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '40px', marginBottom: '20px', boxShadow: '0 10px 25px -5px rgba(79, 70, 229, 0.4)' }}>
+          🎮
+        </div>
+
+        <h1 style={{ fontSize: '28px', fontWeight: '800', marginBottom: '12px', color: '#ffffff' }}>
+          Chronos Protocol
+        </h1>
+        
+        <p style={{ color: '#94a3b8', fontSize: '14px', lineHeight: '1.5', marginBottom: '24px' }}>
+          Mergulhe em uma experiência imersiva de gameplay e estratégia diretamente no seu dispositivo móvel.
+        </p>
+
+        <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <a
+            href={linkDownloadChronos}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ width: '100%', backgroundColor: '#4f46e5', color: '#ffffff', fontWeight: '600', padding: '14px', borderRadius: '12px', textDecoration: 'none', display: 'block', textAlign: 'center', boxShadow: '0 4px 12px rgba(79, 70, 229, 0.3)' }}
+          >
+            Acessar / Jogar Chronos Protocol
+          </a>
+
+          <a
+            href={linkWhatsApp}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ width: '100%', backgroundColor: '#0f172a', color: '#cbd5e1', fontWeight: '600', padding: '14px', borderRadius: '12px', textDecoration: 'none', display: 'block', textAlign: 'center', border: '1px solid #1e293b' }}
+          >
+            Suporte / Versão Sem Anúncios
+          </a>
+        </div>
+
+      </main>
+
+      <footer style={{ marginTop: 'auto', paddingTop: '24px', fontSize: '12px', color: '#64748b' }}>
+        <p>© 2026 Silva Apps. Foco mobile.</p>
+      </footer>
+
+    </div>
+  );
+}
