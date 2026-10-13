@@ -52,6 +52,36 @@ export default function App() {
           </a>
         </div>
 
+        {/* Card: Vizinhança Segura */}
+        <div style={{ width: "100%", backgroundColor: "#0f172a", border: "1px solid #1e293b", borderRadius: "16px", padding: "20px", marginTop: "32px", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
+          
+          <div style={{ backgroundColor: "#064e3b", color: "#34d399", fontSize: "11px", fontWeight: "bold", padding: "4px 10px", borderRadius: "999px", marginBottom: "16px", border: "1px solid #047857" }}>
+            🛡️ Segurança Comunitária • Patos - PB
+          </div>
+
+          <div style={{ width: "72px", height: "72px", background: "linear-gradient(135deg, #059669, #10b981)", borderRadius: "16px", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "32px", marginBottom: "14px", boxShadow: "0 8px 20px -4px rgba(16, 185, 129, 0.4)" }}>
+            🚨
+          </div>
+
+          <h2 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px", color: "#ffffff" }}>
+            Vizinhança Segura
+          </h2>
+
+          <p style={{ color: "#94a3b8", fontSize: "13px", lineHeight: "1.5", marginBottom: "20px" }}>
+            Plataforma de monitorização comunitária em tempo real. Mapa com geolocalização GPS, alertas por bairro, botão SOS de emergência e contactos de apoio.
+          </p>
+
+          <a
+            href="https://vizinhanca-ativa-pro.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ width: "100%", backgroundColor: "#059669", color: "#ffffff", fontWeight: "600", padding: "12px", borderRadius: "10px", textDecoration: "none", display: "block", textAlign: "center", boxShadow: "0 4px 12px rgba(5, 150, 105, 0.3)" }}
+          >
+            Acessar Vizinhança Segura
+          </a>
+        </div>
+
+
       </main>
 
       <footer style={{ marginTop: 'auto', paddingTop: '24px', fontSize: '12px', color: '#64748b' }}>
