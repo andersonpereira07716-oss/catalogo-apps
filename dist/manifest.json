@@ -1,0 +1,20 @@
+{
+  "name": "Silva Apps & Games",
+  "short_name": "Silva Apps",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/fluency/96/controller.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.icons8.com/fluency/512/controller.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
