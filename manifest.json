@@ -1,0 +1,16 @@
+{
+  "name": "RotaFixa",
+  "short_name": "RotaFixa",
+  "icons": [
+    {
+      "src": "/assets/icon-rotarixa.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00ff7f"
+}
